@@ -1,48 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+    box-sizing: border-box;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monolophosaurus Dino Dossier</title>
-</head>
+pre {
+    display: flex;
+    justify-content: flex-end;
+    text-align: flex-end;
+}
 
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .container ul li {
-        display: inline;
-        padding: 20px;
-    }
-    ul {
-        text-align:center;
-        background-color: cyan;
-        font-size: 32px;
-    }
-    ul::after{
-        background-color: red;
-    }
-    a{
-        text-decoration: none;
-    }
-    li:hover{
-        background-color: chartreuse;
-    }
-</style>
+.Monopo_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-</head>
-<body>
-    <div class="container">
-        <ul>
-            <a href=""> <li>Section 1</li></a>
-            <a href=""> <li>Section 2</li></a>
-            <a href=""> <li>Section 3</li></a>
-        
-        </ul>
-    </div>
-
-</body>
-</html>
+.Behaivior {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.Behavior_2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
