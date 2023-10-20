@@ -1,437 +1,99 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Monolophosarus</title>
-
+    <link rel="stylesheet" href="style.css">
+    <title>Dinosaur World</title>
     <style>
-        h1 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: green;
-            text-decoration: underline;
-            width: 100%;
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
         }
 
-
-        h2 {
-            display: flex;
-            align-self: flex-start;
-            justify-content: flex-start;
-            text-decoration: underline;
+        /* Style the header */
+        header {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 20px;
         }
 
-
-        .p1 {
-            display: flex;
-            width: 100%;
-            flex-basis: 100%;
-        }
-
-
-        img {
-            max-width: 100%;
-        }
-
-
-        .flex {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-
-        .flex>section {
-            width: 50%;
-        }
-
-
-        .pic1 {
-            margin-top: 2em;
-            width: 70%;
-        }
-
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 15px;
-        }
-
-        p {
-            text-align: justify;
-        }
-
-        .bottom-section {
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-            margin-top: 30px;
-        }
-
-        .bottom-section>section {
-            flex: 1;
+        /* Style the navigation menu */
+        nav ul {
+            list-style: none;
+            padding: 0;
             text-align: center;
         }
-    </style>
 
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #008080;
+            font-weight: bold;
+        }
+
+        /* Style the main content */
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
-
-    <section class="flex">
-
-        <section>
-
-            <header>
-
-                <h1>Monolophosaurus</h1>
-
-            </header>
-
-            <header>
-
-                <h2>Who and where were the fossils founded?</h2>
-
-            </header>
-
-            <p class="p1">
-
-                In 1981, Dong Zhiming, a Chinese
-
-
-                paleontologist,made the discovery of
-
-
-                a nearly complete skeleton belonging
-
-
-                to a previously unknown theropod
-
-
-                during strati-graphic exploration
-
-
-                conducted for the oil industry. The
-
-
-                fossil, however, remained buried until
-
-
-                it was officially unearthed in 1984.
-
-            </p>
-
+    <header>
+        <h1>Welcome to Dinosaur World</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Dinosaurs</a></li>
+            <li><a href="#types">Dinosaur Types</a></li>
+            <li><a href="#fossils">Fossil Discoveries</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Dinosaurs</h2>
+            <p>Dinosaurs are a diverse group of reptiles that once roamed the Earth. They lived during the Mesozoic Era,
+                and they come in various shapes and sizes.</p>
         </section>
-
-        <section>
-
-            <figure class="pic1">
-
-                <img src="Monolophosaurus_jiangi_jmallon_1840.jpg" alt="dino compared to an average size human">
-
-
-            </figure>
-
+        <section id="types">
+            <h2>Dinosaur Types</h2>
+            <p>There were two main types of dinosaurs: Saurischia (lizard-hipped) and Ornithischia (bird-hipped). The
+                Saurischia group includes the famous T. rex, while the Ornithischia group contains dinosaurs like the
+                Triceratops.</p>
         </section>
-
-    </section>
-
-    <section class="flex">
-
-        <section>
-
-            <figure class="pic1">
-
-                <img src="Monolophosaurus_jiangi.jpg" alt="Monolophosarus compared to an average size human">
-
-            </figure>
-
+        <section id="fossils">
+            <h2>Fossil Discoveries</h2>
+            <p>Fossils of dinosaurs have been discovered on every continent. These ancient remnants help us understand
+                the history and biology of these incredible creatures.</p>
         </section>
-
-        <section>
-
-            <header>
-                <h2>genus</h2>
-            </header>
-
-            <p class="p1">
-
-                Monolophosaurus is a genus of theropod dinosaur that lived in the
-
-
-                Middle Jurassic period, approximately 165 million years ago. Fossils of
-
-
-                Monolophosaurus have been found in China, and it is characterized by a
-
-
-                distinctive crest on its snout, which gives it its name ("monolopho" means
-
-
-                "single crest"). This dinosaur was likely a carnivorous predator, and its
-
-
-                fossils contribute to our understanding of theropod evolution during the
-
-
-                Jurassic period.
-
-            </p>
-
-        </section>
-
-    </section>
-
-    <section class="flex">
-
-        <section>
-
-            <header>
-
-                <h2>Fossils</h2>
-
-            </header>
-
-            <p class="p1">
-                Monolophosaurus fossils have been discovered
-
-
-                in the Shishugou Formation of Xinjiang,
-
-
-                China. The Shishugou Formation is a geological
-
-
-                formation that dates back to the Middle
-
-
-                Jurassic period, approximately 170 million
-
-
-                years ago. Therefore, Monolophosaurus lived
-
-
-                in what is now the Xinjiang region of China
-
-
-                during this ancient time.
-            </p>
-
-        </section>
-
-        <figure class="pic1">
-
-            <img src="jpm6igiuhyd61.jpg" alt="Location dino found">
-
-        </figure>
-
-    </section>
-
-    <section class="flex">
-
-        <section>
-
-            <figure class="pic1">
-
-                <img src="" alt="Location dino found">
-
-            </figure>
-
-        </section>
-
-        <section>
-
-            <header>
-
-                <h2>Monolophosarus's Diet</h2>
-
-            </header>
-
-
-            <p class="p1">
-
-                Belonging to the theropod group, Monolophosaurus likely functioned as a
-
-
-                carnivorous predator, equipped with teeth and jaws adapted for capturing and
-
-
-                consuming other animals. Its diet probably consisted of smaller dinosaurs and
-
-
-                various vertebrates from the surrounding ecosystem. The specific prey species
-
-
-                would have been influenced by the size and hunting behavior of
-
-
-                Monolophosaurus.
-
-            </p>
-
-        </section>
-
-    </section>
-
-    <section class="split_three">
-
-        <section>
-
-            <header>
-
-                <h3>Physical Charactaristics</h3>
-
-            </header>
-
-            <figure>
-
-                <img src="monolophosaurus-size_0b98.jpg" alt="dino campared to human">
-
-            </figure>
-
-            <p>
-
-                Monolophosaurus, a medium-sized theropod dinosaur
-
-
-                from the Middle Jurassic period, is distinguished by a
-
-
-                single crest along its skull. This crest, defining its unique
-
-
-                appearance, raises intriguing questions about its
-
-
-                evolutionary significance. With an estimated length of
-
-
-                16 to 20 feet (5 to 6 meters), Monolophosaurus showcased
-
-
-                agility and predatory adaptations through its long hind limbs and
-
-
-                sharp claws. The purpose of its crest remains a subject of
-
-
-                ongoing research, adding to the allure of this dinosaur in the
-
-
-                study of prehistoric life.
-
-            </p>
-
-        </section>
-
-        <section>
-
-            <header>
-
-                <h3>Habitat</h3>
-
-            </header>
-
-            <figure>
-
-                <img src="qise4tcaoke11.jpg" alt="dino Habitat">
-
-            </figure>
-
-            <p>
-
-                Habitat was characterized by a mix of
-
-
-                terrestrial and lacustrine (lake) environments.
-
-
-                Fossils of Monolophosaurus have been found
-
-
-                in the Shishugou Formation of Xinjiang, China.
-
-
-                This formation includes a variety of sedimentary
-
-
-                deposits, indicating that the region had diverse
-
-
-                ecosystems during the time when the Monolophosaurus
-
-
-                roamed.
-
-            </p>
-
-        </section>
-
-        <section>
-
-            <header>
-
-                <h3>Location Fossils Found</h3>
-
-            </header>
-
-            <figure>
-
-                <img src="Resin-Monolophosaurus-Skull-Model-Velociraptor-Dinosaur-Fossil-Skull-Head-Statue-Sculpture-Home-Collectibles-Aquarium-Decoration.jpg"
-                    alt="dino skull">
-
-            </figure>
-
-            <p>
-
-                Monolophosaurus fossils have been discovered
-
-
-                in the Shishugou Formation of Xinjiang, China.
-
-
-                The Shishugou Formation is a geological
-
-
-                formation that dates back to the Middle
-
-
-                Jurassic period, approximately 170 million
-
-
-                years ago. Therefore, Monolophosaurus lived
-
-
-                in what is now the Xinjiang region of China
-
-
-                during this ancient time.
-
-            </p>
-
-        </section>
-
-    </section>
-
-
-
-
-
-
-
-
+    </main>
+    <footer>
+        &copy; 2023 Dinosaur World
+    </footer>
 </body>
-
 
 </html>
